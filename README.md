@@ -62,4 +62,8 @@ npm install cz-customizable --save-dev
     }
   }
 
+或
+npm install -g conventional-changelog
+npm install -g conventional-changelog-cli
+
 ```
