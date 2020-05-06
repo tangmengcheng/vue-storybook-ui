@@ -49,4 +49,17 @@ npm install @storybook/vue --save-dev
 }
 
 
+npm install -g commitizen
+
+npm install cz-customizable --save-dev
+
+ "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "my.cz-config.js" // 这里的文件名可以自定义，但是改文件需要放置在项目的根目录下
+    }
+  }
+
 ```
